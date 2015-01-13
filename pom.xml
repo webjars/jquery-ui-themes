@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>jquery-ui-themes</artifactId>
-    <version>1.11.1-SNAPSHOT</version>
+    <version>1.11.2-SNAPSHOT</version>
     <name>jQuery UI Themes</name>
     <description>WebJar for jQuery UI Themes</description>
     <url>http://webjars.org</url>
@@ -43,13 +43,13 @@
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>jquery-ui</artifactId>
-            <version>1.11.0-1</version>
+            <version>1.11.2</version>
         </dependency>
     </dependencies>
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>1.11.0</upstream.version>
+        <upstream.version>1.11.2</upstream.version>
         <upstream.url>http://jqueryui.com/resources/download</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
     </properties>
